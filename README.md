@@ -85,3 +85,10 @@ In this application, you can choose one of the launch modes, as well as specify 
 4. In the statistical analysis, the Map interface is used for the convenience of determining the number of symbols and the percentage ratio.
 
 5. The Swing library is used for the desktop application.
+
+!!!
+Для ментора Олександра
+
+Для запуску проєкта перейдіть в директорію main-resources-копіюєте шлях SourceTextEN.txt і вставляєте в bash Input File Path: 
+
+!!!
