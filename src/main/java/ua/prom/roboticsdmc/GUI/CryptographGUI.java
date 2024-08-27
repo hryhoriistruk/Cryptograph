@@ -1,4 +1,4 @@
-package GUI;
+package ua.prom.roboticsdmc.GUI;
 
 import javax.swing.*;
 import java.awt.*;

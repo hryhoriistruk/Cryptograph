@@ -1,4 +1,4 @@
-package Contstants;
+package ua.prom.roboticsdmc.Contstants;
 
 import java.util.ArrayList;
 import java.util.Arrays;
