@@ -8,11 +8,11 @@ The program can be launched in 2 ways:
 1. `jarFile` - the path to the jar file
 2. `command` - a command to launch the program in one of the modes:
 
-`-e` - encryption,
+`ENCRYPT` - encryption,
 
-`-d` - decryption,
+`DECRYPT` - decryption,
 
-`-bf` - break the cipher (brute force)
+`BRUTE_FORCE` - break the cipher (brute force)
 
 3. `filePath` - the path to the main file
 4. `additionalFile` - the path to the additional file
