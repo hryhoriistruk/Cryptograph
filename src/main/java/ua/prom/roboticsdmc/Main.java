@@ -16,7 +16,7 @@ import ua.prom.roboticsdmc.creater.FileCreateImpl;
 
 import java.util.Scanner;
 
-public class EncryptingApplication {
+public class Main {
     public static void main(String[] args) {
 
         String sourceFilePath;
