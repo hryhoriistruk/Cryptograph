@@ -34,7 +34,7 @@ public class Main {
         if (args.length == 0) {
             try (Scanner scanner = new Scanner(System.in)) {
                 System.out.println("Input File Path: ");
-                System.out.println("For example: C:\\workspaceIntellij\\Encrypter\\src\\main\\resources\\SourceTextEN.txt");
+                System.out.println("For example: C:\\workspaceIntellij\\Cryptograph\\src\\main\\resources\\SourceTextEN.txt");
                 sourceFilePath = scanner.nextLine();
                 System.out.println("Input command: ");
                 System.out.println("For example: "
