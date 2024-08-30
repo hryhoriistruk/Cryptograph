@@ -1,4 +1,4 @@
-package ua.com.javarush.gnew.creater;
+package ua.com.javarush.gnew.creation;
 
 import java.io.IOException;
 import java.nio.file.Files;

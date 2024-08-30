@@ -19,12 +19,12 @@ import org.mockito.InOrder;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import ua.com.javarush.gnew.creater.FileCreater;
+import ua.com.javarush.gnew.creation.FileCreater;
 import ua.com.javarush.gnew.domain.EncryptingData;
-import ua.com.javarush.gnew.encrypter.Encrypter;
-import ua.com.javarush.gnew.encrypter.PathCreater;
+import ua.com.javarush.gnew.encryption.Encrypter;
+import ua.com.javarush.gnew.encryption.PathCreater;
 import ua.com.javarush.gnew.reader.FileReader;
-import ua.com.javarush.gnew.validator.Validator;
+import ua.com.javarush.gnew.validation.Validator;
 
 @ExtendWith(MockitoExtension.class)
 class EncryptingProviderTest {

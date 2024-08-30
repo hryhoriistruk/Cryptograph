@@ -1,4 +1,4 @@
-package ua.com.javarush.gnew.encrypter;
+package ua.com.javarush.gnew.encryption;
 
 import org.junit.jupiter.api.Test;
 import ua.com.javarush.gnew.domain.Command;

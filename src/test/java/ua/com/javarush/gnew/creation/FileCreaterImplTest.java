@@ -1,4 +1,4 @@
-package ua.com.javarush.gnew.creater;
+package ua.com.javarush.gnew.creation;
 
 import java.io.BufferedWriter;
 import java.io.File;

@@ -1,4 +1,4 @@
-package ua.com.javarush.gnew.encrypter;
+package ua.com.javarush.gnew.encryption;
 
 import org.apache.commons.lang3.StringUtils;
 import ua.com.javarush.gnew.domain.AlphabetEn;

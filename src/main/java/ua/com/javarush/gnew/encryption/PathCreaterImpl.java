@@ -1,4 +1,4 @@
-package ua.com.javarush.gnew.encrypter;
+package ua.com.javarush.gnew.encryption;
 
 import ua.com.javarush.gnew.domain.Command;
 import ua.com.javarush.gnew.domain.EncryptingData;
