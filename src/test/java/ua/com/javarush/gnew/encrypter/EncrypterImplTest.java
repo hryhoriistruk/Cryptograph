@@ -12,7 +12,7 @@ class EncrypterImplTest {
     @Test
     void encryptText_shouldReturnStringWithEncryptedText_whenCommandIsEncrypt() {
 
-        String command = Command.ENCRYPT.toString();
+        String command = Command.e.toString();
         int key = 10;
         EncryptingData encryptingData = EncryptingData.builder()
             .withCommand(command)
@@ -66,7 +66,7 @@ class EncrypterImplTest {
     @Test
     void encryptText_shouldReturnStringWithDecryptedText_whenCommandIsDecryptAndKeyWhichWasUsedForEncryption() {
 
-        String command = Command.DECRYPT.toString();
+        String command = Command.d.toString();
         int key = 10;
         EncryptingData encryptingData = EncryptingData.builder()
             .withCommand(command)
@@ -120,7 +120,7 @@ class EncrypterImplTest {
     @Test
     void encryptText_shouldReturnStringWithBruteForcedText_whenCommandIsBruteForce() {
 
-        String command = Command.BRUTE_FORCE.toString();
+        String command = Command.bf.toString();
         EncryptingData encryptingData = EncryptingData.builder()
             .withCommand(command).build();
         String sourceText =

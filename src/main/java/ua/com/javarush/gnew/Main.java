@@ -38,11 +38,11 @@ public class Main {
                 sourceFilePath = scanner.nextLine();
                 System.out.println("Input command: ");
                 System.out.println("For example: "
-                    + Command.ENCRYPT + ", "
-                    + Command.DECRYPT + ", "
-                    + Command.BRUTE_FORCE);
+                    + Command.e + ", "
+                    + Command.d + ", "
+                    + Command.bf);
                 command = scanner.nextLine();
-                if (!Command.BRUTE_FORCE.equals(command)) {
+                if (!Command.bf.equals(command)) {
                     System.out.println("Input key (it must be a number, if you chose null, the text doesn't change): ");
                     key = scanner.nextInt();
                 }

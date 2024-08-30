@@ -23,24 +23,24 @@ public class PathCreaterImpl implements PathCreater {
         if (sourcePath.contains(decrypted)
             || sourcePath.contains(encrypted)
             || sourcePath.contains(bruteForced)) {
-            if (Command.ENCRYPT.equals(command)) {
+            if (Command.e.equals(command)) {
                 newFilePath = sourcePath.substring(0, indexOfOpenedBracket)
                     + encrypted + sourcePath.substring(indexOfClosedBracket + 1);
-            } else if (Command.DECRYPT.equals(command)) {
+            } else if (Command.d.equals(command)) {
                 newFilePath = sourcePath.substring(0, indexOfOpenedBracket)
                     + decrypted + sourcePath.substring(indexOfClosedBracket + 1);
-            } else if (Command.BRUTE_FORCE.equals(command)) {
+            } else if (Command.bf.equals(command)) {
                 newFilePath = sourcePath.substring(0, indexOfOpenedBracket)
                     + bruteForced + sourcePath.substring(indexOfClosedBracket + 1);
             }
         } else {
-            if (Command.ENCRYPT.equals(command)) {
+            if (Command.e.equals(command)) {
                 newFilePath = sourcePath.substring(0, indexOfDot)
                     + encrypted + sourcePath.substring(indexOfDot);
-            } else if (Command.DECRYPT.equals(command)) {
+            } else if (Command.d.equals(command)) {
                 newFilePath = sourcePath.substring(0, indexOfDot)
                     + decrypted + sourcePath.substring(indexOfDot);
-            } else if (Command.BRUTE_FORCE.equals(command)) {
+            } else if (Command.bf.equals(command)) {
                 newFilePath = sourcePath.substring(0, indexOfDot)
                     + bruteForced + sourcePath.substring(indexOfDot);
             }

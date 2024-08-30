@@ -48,13 +48,13 @@ public class ValidatorImpl implements Validator {
             throw new IllegalArgumentException("Command is empty");
         } else if (command.trim().isEmpty()) {
             throw new IllegalArgumentException("Command contains only spaces or tabs");
-        } else if (!Command.ENCRYPT.equals(command)
-            && !Command.DECRYPT.equals(command)
-            && !Command.BRUTE_FORCE.equals(command)) {
+        } else if (!Command.e.equals(command)
+            && !Command.d.equals(command)
+            && !Command.bf.equals(command)) {
             throw new IllegalArgumentException("You enter wrong command, please chose between: "
-                + Command.ENCRYPT +", "
-                + Command.DECRYPT + ", "
-                + Command.BRUTE_FORCE);
+                + Command.e +", "
+                + Command.d + ", "
+                + Command.bf);
         }
     }
 }

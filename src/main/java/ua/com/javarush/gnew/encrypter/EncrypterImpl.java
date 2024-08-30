@@ -14,19 +14,19 @@ public class EncrypterImpl implements Encrypter {
         AlphabetEn alphabetEn = new AlphabetEn();
         List<Character> rotatedAlphabet = new ArrayList<>(alphabetEn.getEngAlphabet());
 
-        if (Command.ENCRYPT.equals(encryptingData.getCommand())) {
+        if (Command.e.equals(encryptingData.getCommand())) {
             Collections.rotate(rotatedAlphabet, encryptingData.getKey() % alphabetEn.getEngAlphabetSize() * -1);
             result = processText(sourceText,
                 alphabetEn.getEngAlphabet(),
                 rotatedAlphabet,
                 alphabetEn.getEngAlphabetSize());
-        } else if (Command.DECRYPT.equals(encryptingData.getCommand())) {
+        } else if (Command.d.equals(encryptingData.getCommand())) {
             Collections.rotate(rotatedAlphabet, encryptingData.getKey() % alphabetEn.getEngAlphabetSize());
             result = processText(sourceText,
                 alphabetEn.getEngAlphabet(),
                 rotatedAlphabet,
                 alphabetEn.getEngAlphabetSize());
-        } else if (Command.BRUTE_FORCE.equals(encryptingData.getCommand())) {
+        } else if (Command.bf.equals(encryptingData.getCommand())) {
             result = executeBruteForce(sourceText,
                 alphabetEn.getEngAlphabet(),
                 alphabetEn.getEngAlphabetSize(),
