@@ -11,8 +11,8 @@ import java.nio.file.Path;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
-import ua.com.javarush.gnew.domain.Command;
-import ua.com.javarush.gnew.domain.EncryptingData;
+import ua.com.javarush.gnew.domainator.Command;
+import ua.com.javarush.gnew.domainator.EncryptingData;
 
 class ValidatorImplTest {
 

@@ -1,18 +1,18 @@
 package ua.com.javarush.gnew;
 
-import ua.com.javarush.gnew.domain.Command;
-import ua.com.javarush.gnew.domain.EncryptingData;
-import ua.com.javarush.gnew.encryption.Encrypter;
-import ua.com.javarush.gnew.encryption.EncrypterImpl;
-import ua.com.javarush.gnew.encryption.PathCreater;
-import ua.com.javarush.gnew.encryption.PathCreaterImpl;
-import ua.com.javarush.gnew.provider.EncryptingProvider;
-import ua.com.javarush.gnew.reader.FileReader;
-import ua.com.javarush.gnew.reader.FileReaderImpl;
+import ua.com.javarush.gnew.domainator.Command;
+import ua.com.javarush.gnew.domainator.EncryptingData;
+import ua.com.javarush.gnew.encrypt.Encrypter;
+import ua.com.javarush.gnew.encrypt.EncrypterImpl;
+import ua.com.javarush.gnew.encrypt.PathCreater;
+import ua.com.javarush.gnew.encrypt.PathCreaterImpl;
+import ua.com.javarush.gnew.provide.EncryptingProvider;
+import ua.com.javarush.gnew.read.FileReader;
+import ua.com.javarush.gnew.read.FileReaderImpl;
 import ua.com.javarush.gnew.validation.Validator;
 import ua.com.javarush.gnew.validation.ValidatorImpl;
-import ua.com.javarush.gnew.creation.FileCreater;
-import ua.com.javarush.gnew.creation.FileCreateImpl;
+import ua.com.javarush.gnew.create.FileCreater;
+import ua.com.javarush.gnew.create.FileCreateImpl;
 
 import java.util.Scanner;
 

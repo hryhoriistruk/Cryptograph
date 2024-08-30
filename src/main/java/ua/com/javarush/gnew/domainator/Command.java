@@ -1,4 +1,4 @@
-package ua.com.javarush.gnew.domain;
+package ua.com.javarush.gnew.domainator;
 
 public enum Command {
     e, d, bf;

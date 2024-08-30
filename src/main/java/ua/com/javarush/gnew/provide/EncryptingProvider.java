@@ -1,11 +1,11 @@
-package ua.com.javarush.gnew.provider;
+package ua.com.javarush.gnew.provide;
 
-import ua.com.javarush.gnew.domain.EncryptingData;
-import ua.com.javarush.gnew.encryption.Encrypter;
-import ua.com.javarush.gnew.encryption.PathCreater;
-import ua.com.javarush.gnew.reader.FileReader;
+import ua.com.javarush.gnew.domainator.EncryptingData;
+import ua.com.javarush.gnew.encrypt.Encrypter;
+import ua.com.javarush.gnew.encrypt.PathCreater;
+import ua.com.javarush.gnew.read.FileReader;
 import ua.com.javarush.gnew.validation.Validator;
-import ua.com.javarush.gnew.creation.FileCreater;
+import ua.com.javarush.gnew.create.FileCreater;
 
 public class EncryptingProvider {
     private final Validator fileValidator;

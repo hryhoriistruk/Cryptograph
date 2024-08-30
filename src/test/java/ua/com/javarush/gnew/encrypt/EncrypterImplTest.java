@@ -1,8 +1,8 @@
-package ua.com.javarush.gnew.encryption;
+package ua.com.javarush.gnew.encrypt;
 
 import org.junit.jupiter.api.Test;
-import ua.com.javarush.gnew.domain.Command;
-import ua.com.javarush.gnew.domain.EncryptingData;
+import ua.com.javarush.gnew.domainator.Command;
+import ua.com.javarush.gnew.domainator.EncryptingData;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

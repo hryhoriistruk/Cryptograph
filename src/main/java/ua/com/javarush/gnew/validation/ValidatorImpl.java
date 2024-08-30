@@ -1,7 +1,7 @@
 package ua.com.javarush.gnew.validation;
 
-import ua.com.javarush.gnew.domain.Command;
-import ua.com.javarush.gnew.domain.EncryptingData;
+import ua.com.javarush.gnew.domainator.Command;
+import ua.com.javarush.gnew.domainator.EncryptingData;
 
 import java.io.File;
 import java.nio.file.InvalidPathException;

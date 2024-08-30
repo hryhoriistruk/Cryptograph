@@ -1,6 +1,6 @@
-package ua.com.javarush.gnew.reader;
+package ua.com.javarush.gnew.read;
 
-import ua.com.javarush.gnew.domain.EncryptingData;
+import ua.com.javarush.gnew.domainator.EncryptingData;
 
 import java.io.IOException;
 import java.nio.file.Files;
