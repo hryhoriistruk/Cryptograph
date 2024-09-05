@@ -1,4 +1,4 @@
-package ua.com.javarush.gnew.validation;
+package ua.com.javarush.gnew.validator;
 
 import ua.com.javarush.gnew.domainator.EncryptingData;
 

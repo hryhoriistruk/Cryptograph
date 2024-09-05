@@ -1,5 +1,5 @@
 package ua.com.javarush.gnew.create;
 
-public interface FileCreater {
+public interface FileCreate {
     void createFile(String resultText, String resultFilePath);
 }

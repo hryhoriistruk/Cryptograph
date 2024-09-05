@@ -7,7 +7,7 @@ import ua.com.javarush.gnew.domainator.EncryptingData;
 
 import java.util.*;
 
-public class EncrypterImpl implements Encrypter {
+public class Encryptmpl implements Encrypt {
     @Override
     public String encryptText(String sourceText, EncryptingData encryptingData) {
         String result = "";

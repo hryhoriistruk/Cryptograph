@@ -3,7 +3,7 @@ package ua.com.javarush.gnew.encrypt;
 import ua.com.javarush.gnew.domainator.Command;
 import ua.com.javarush.gnew.domainator.EncryptingData;
 
-public class PathCreaterImpl implements PathCreater {
+public class PathCreateImpl implements PathCreate {
 
     @Override
     public String createPath(EncryptingData encryptingData) {

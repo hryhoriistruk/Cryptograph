@@ -6,9 +6,9 @@ import ua.com.javarush.gnew.domainator.EncryptingData;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class PathCreaterImplTest {
+class PathCreateImplTest {
 
-    PathCreater pathCreater = new PathCreaterImpl();
+    PathCreate pathCreater = new PathCreateImpl();
 
     @Test
     void createPath_shouldReturnCorrectPathWithEncrypted_whenCommandIsEncryptAndSourceFilePathContainsDecryptedOrBruteForced() {

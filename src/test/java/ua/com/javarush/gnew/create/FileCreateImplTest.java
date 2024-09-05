@@ -12,9 +12,9 @@ import org.junit.jupiter.api.io.TempDir;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class FileCreaterImplTest {
+class FileCreateImplTest {
 
-    FileCreater fileCreater = new FileCreateImpl();
+    FileCreate fileCreater = new FileCreateImpl();
 
     @TempDir
     static Path tempDir;

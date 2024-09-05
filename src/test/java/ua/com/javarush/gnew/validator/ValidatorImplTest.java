@@ -1,4 +1,4 @@
-package ua.com.javarush.gnew.validation;
+package ua.com.javarush.gnew.validator;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;

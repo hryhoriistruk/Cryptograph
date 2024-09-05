@@ -1,24 +1,24 @@
 package ua.com.javarush.gnew.provide;
 
 import ua.com.javarush.gnew.domainator.EncryptingData;
-import ua.com.javarush.gnew.encrypt.Encrypter;
-import ua.com.javarush.gnew.encrypt.PathCreater;
-import ua.com.javarush.gnew.read.FileReader;
-import ua.com.javarush.gnew.validation.Validator;
-import ua.com.javarush.gnew.create.FileCreater;
+import ua.com.javarush.gnew.encrypt.Encrypt;
+import ua.com.javarush.gnew.encrypt.PathCreate;
+import ua.com.javarush.gnew.read.FileReade;
+import ua.com.javarush.gnew.validator.Validator;
+import ua.com.javarush.gnew.create.FileCreate;
 
-public class EncryptingProvider {
+public class EncryptingProvide {
     private final Validator fileValidator;
-    private final FileReader fileReader;
-    private final Encrypter encrypter;
-    private final PathCreater pathCreater;
-    private final FileCreater fileCreater;
+    private final FileReade fileReader;
+    private final Encrypt encrypter;
+    private final PathCreate pathCreater;
+    private final FileCreate fileCreater;
 
-    public EncryptingProvider(Validator fileValidator,
-                              FileReader fileReader,
-                              Encrypter encrypter,
-                              PathCreater pathCreater,
-                              FileCreater fileCreater) {
+    public EncryptingProvide(Validator fileValidator,
+                             FileReade fileReader,
+                             Encrypt encrypter,
+                             PathCreate pathCreater,
+                             FileCreate fileCreater) {
         this.fileValidator = fileValidator;
         this.fileReader = fileReader;
         this.encrypter = encrypter;

@@ -2,16 +2,16 @@ package ua.com.javarush.gnew;
 
 import ua.com.javarush.gnew.domainator.Command;
 import ua.com.javarush.gnew.domainator.EncryptingData;
-import ua.com.javarush.gnew.encrypt.Encrypter;
-import ua.com.javarush.gnew.encrypt.EncrypterImpl;
-import ua.com.javarush.gnew.encrypt.PathCreater;
-import ua.com.javarush.gnew.encrypt.PathCreaterImpl;
-import ua.com.javarush.gnew.provide.EncryptingProvider;
-import ua.com.javarush.gnew.read.FileReader;
-import ua.com.javarush.gnew.read.FileReaderImpl;
-import ua.com.javarush.gnew.validation.Validator;
-import ua.com.javarush.gnew.validation.ValidatorImpl;
-import ua.com.javarush.gnew.create.FileCreater;
+import ua.com.javarush.gnew.encrypt.Encrypt;
+import ua.com.javarush.gnew.encrypt.Encryptmpl;
+import ua.com.javarush.gnew.encrypt.PathCreate;
+import ua.com.javarush.gnew.encrypt.PathCreateImpl;
+import ua.com.javarush.gnew.provide.EncryptingProvide;
+import ua.com.javarush.gnew.read.FileReade;
+import ua.com.javarush.gnew.read.FileReadImpl;
+import ua.com.javarush.gnew.validator.Validator;
+import ua.com.javarush.gnew.validator.ValidatorImpl;
+import ua.com.javarush.gnew.create.FileCreate;
 import ua.com.javarush.gnew.create.FileCreateImpl;
 
 import java.util.Scanner;
@@ -24,11 +24,11 @@ public class Main {
         int key = 0;
         EncryptingData encryptingData;
         Validator fileValidator = new ValidatorImpl();
-        FileReader fileReader = new FileReaderImpl();
-        Encrypter encrypter = new EncrypterImpl();
-        PathCreater pathCreater = new PathCreaterImpl();
-        FileCreater fileWriter = new FileCreateImpl();
-        EncryptingProvider encryptingProvider = new EncryptingProvider(fileValidator,
+        FileReade fileReader = new FileReadImpl();
+        Encrypt encrypter = new Encryptmpl();
+        PathCreate pathCreater = new PathCreateImpl();
+        FileCreate fileWriter = new FileCreateImpl();
+        EncryptingProvide encryptingProvider = new EncryptingProvide(fileValidator,
             fileReader, encrypter, pathCreater, fileWriter);
 
         if (args.length == 0) {

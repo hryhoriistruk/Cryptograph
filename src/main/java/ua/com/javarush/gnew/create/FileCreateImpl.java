@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class FileCreateImpl implements FileCreater {
+public class FileCreateImpl implements FileCreate {
     @Override
     public void createFile(String resultText, String resultFilePath) {
 

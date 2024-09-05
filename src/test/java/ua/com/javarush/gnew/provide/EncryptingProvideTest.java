@@ -19,33 +19,33 @@ import org.mockito.InOrder;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import ua.com.javarush.gnew.create.FileCreater;
+import ua.com.javarush.gnew.create.FileCreate;
 import ua.com.javarush.gnew.domainator.EncryptingData;
-import ua.com.javarush.gnew.encrypt.Encrypter;
-import ua.com.javarush.gnew.encrypt.PathCreater;
-import ua.com.javarush.gnew.read.FileReader;
-import ua.com.javarush.gnew.validation.Validator;
+import ua.com.javarush.gnew.encrypt.Encrypt;
+import ua.com.javarush.gnew.encrypt.PathCreate;
+import ua.com.javarush.gnew.read.FileReade;
+import ua.com.javarush.gnew.validator.Validator;
 
 @ExtendWith(MockitoExtension.class)
-class EncryptingProviderTest {
+class EncryptingProvideTest {
 
     @Mock
     Validator validator;
 
     @Mock
-    FileReader fileReader;
+    FileReade fileReader;
 
     @Mock
-    Encrypter encrypter;
+    Encrypt encrypter;
 
     @Mock
-    PathCreater pathCreater;
+    PathCreate pathCreater;
 
     @Mock
-    FileCreater fileCreater;
+    FileCreate fileCreater;
 
     @InjectMocks
-    EncryptingProvider encryptingProvider;
+    EncryptingProvide encryptingProvider;
 
     @TempDir
     static Path tempDir;

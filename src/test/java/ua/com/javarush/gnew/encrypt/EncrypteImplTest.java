@@ -6,8 +6,8 @@ import ua.com.javarush.gnew.domainator.EncryptingData;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class EncrypterImplTest {
-    Encrypter encrypter = new EncrypterImpl();
+class EncrypteImplTest {
+    Encrypt encrypter = new Encryptmpl();
 
     @Test
     void encryptText_shouldReturnStringWithEncryptedText_whenCommandIsEncrypt() {

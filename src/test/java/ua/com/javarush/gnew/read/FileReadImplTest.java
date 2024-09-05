@@ -13,8 +13,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 import ua.com.javarush.gnew.domainator.EncryptingData;
 
-class FileReaderImplTest {
-    FileReader fileReader = new FileReaderImpl();
+class FileReadImplTest {
+    FileReade fileReader = new FileReadImpl();
 
     @TempDir
     static Path tempDir;
