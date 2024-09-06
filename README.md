@@ -15,7 +15,7 @@ Commands
 # e: Encrypt text with a specified key. This command is used to encrypt a file using the Caesar cipher. You can specify the key as an integer value, and the program will shift the characters in the file accordingly.
 # d: Decrypt text with a specified key. This command is used to decrypt a file that was previously encrypted using the Caesar cipher. You can specify the key as an integer value, and the program will shift the characters in the file back to their original positions.
 # bf: Break the cipher using frequency analysis or statistical analysis. This command is used to crack the Caesar cipher without knowing the key. The program uses two methods to break the cipher: frequency analysis and statistical analysis.
-Templates and Examples
+#Templates and Examples
 
 # Here are the templates and examples for each command:
 
