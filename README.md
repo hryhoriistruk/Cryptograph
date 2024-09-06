@@ -1,4 +1,4 @@
-# Cryptograph
+.# Cryptograph
 **Hello!** This is a cryptographer - a program that can encrypt/decrypt text with the Caesar cipher, as well as break the cipher in 2 ways (frequency and statistical analysis).
 The program can be launched in 2 ways:
   1. Passing arguments at startup.
